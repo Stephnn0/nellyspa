@@ -1,7 +1,7 @@
 import React from "react";
-import serviceImage1 from "../assets/sal.jpg"; // Adjust the path to your image
-import serviceImage2 from "../assets/sal.jpg"; // Adjust the path to your image
-import serviceImage3 from "../assets/sal.jpg"; // Adjust the path to your image
+import serviceImage1 from "../assets/pics/1.png"; // Adjust the path to your image
+import serviceImage2 from "../assets/pics/2.png"; // Adjust the path to your image
+import serviceImage3 from "../assets/pics/3.png"; // Adjust the path to your image
 
 const ServiceCard: React.FC = () => {
   return (
@@ -17,11 +17,10 @@ const ServiceCard: React.FC = () => {
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">
-                Service 1
+                Glamourous Trim
               </h3>
               <p className="text-gray-600 mb-4">
-                Enjoy a premium grooming experience with hot towel shaves and
-                more.
+                A sleek trim to keep your hair healthy and beautiful.
               </p>
               <button className="px-6 py-2 bg-black text-white rounded-lg hover:bg-blue-700 transition duration-200">
                 Learn More
@@ -38,10 +37,10 @@ const ServiceCard: React.FC = () => {
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">
-                Service 2
+                Elegant Fade
               </h3>
               <p className="text-gray-600 mb-4">
-                Experience a clean, sharp haircut from our skilled barbers.
+                A modern fade for a clean and sharp, chic look.{" "}
               </p>
               <button className="px-6 py-2 bg-black text-white rounded-lg hover:bg-blue-700 transition duration-200">
                 Learn More
@@ -58,11 +57,10 @@ const ServiceCard: React.FC = () => {
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">
-                Service 3
+                The Effortless Bob{" "}
               </h3>
               <p className="text-gray-600 mb-4">
-                Treat yourself to a luxury beard trim and shaping for the
-                perfect look.
+                A stylish bob for easy elegance and fresh vibes.
               </p>
               <button className="px-6 py-2 bg-black text-white rounded-lg hover:bg-blue-700 transition duration-200">
                 Learn More

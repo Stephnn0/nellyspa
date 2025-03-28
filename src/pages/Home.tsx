@@ -5,6 +5,7 @@ import ServiceCard from "../components/Services";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import Contact from "../components/Contact";
 import SalonPriceList from "../components/Prices";
+import Reviews from "../components/Reviews";
 
 const HomePage: React.FC = () => {
   return (
@@ -24,7 +25,12 @@ const HomePage: React.FC = () => {
         <br />
         <br />
         <br />
+
         <SalonPriceList />
+        <br />
+        <br />
+        <br />
+        <Reviews />
         <br />
         <br />
         <br />

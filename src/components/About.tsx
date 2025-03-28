@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImage from "../assets/cut.jpg"; // Adjust the path to your image
+import aboutImage from "../assets/pics/abaout1.png";
 
 const About: React.FC = () => {
   return (
@@ -10,12 +10,16 @@ const About: React.FC = () => {
           Spa Haircuts & Beauty
         </h2>
         <p className="text-lg text-gray-600 mb-6 px-4">
-          From hot towel shave treatments to hip haircuts to straight razor
-          shaves, The Spot Barbershop ® offers classic grooming services in a
-          modern setting. The Spot Barbershop ®’s experience is truly a cut
-          above. The ambiance and skilled barbers with dedication for their
-          craft makes this more than just a haircut, it makes every visit a
-          gentleman’s experience.
+          At our salon, we offer a range of nail services designed to help you
+          achieve the perfect look for your hands and feet. Whether you prefer
+          gel or regular polish, we have you covered. From a simple Change Gel
+          Polish (Hands) for just $20 to a more luxurious Change Gel Polish
+          (Feet) for $25, we have something to suit every need. If you're
+          looking for a more durable solution, our Acrylic Toes are available
+          for only $10 per toe, offering long-lasting style and strength. To
+          enhance your experience, you can also enjoy an Extra Massage for just
+          $15 per 10 minutes, providing ultimate relaxation during your
+          treatment.
         </p>
         <button className="mx-4 px-6 py-3 border-2 border-black text-black font-semibold rounded-lg hover:bg-blue-600 hover:text-white transition duration-200">
           Learn More

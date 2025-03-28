@@ -5,6 +5,7 @@ import Footer from "./Footer";
 const Layout = () => {
   return (
     <>
+      {/* <AnnouncementBar /> */}
       <Navbar />
 
       <main>

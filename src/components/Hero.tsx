@@ -1,10 +1,10 @@
 import React from "react";
-import image from "../assets/salon.jpg";
+import image from "../assets/image.jpg";
 
 const Hero: React.FC = () => {
   return (
     <section
-      className="relative w-full h-screen bg-cover bg-center"
+      className="relative w-full h-screen bg-cover bg-center "
       style={{ backgroundImage: `url(${image})` }}
     >
       {/* Overlay (optional, if you want to dim the image) */}
